@@ -13,6 +13,7 @@ async function pogoda(miasto) {
   document.getElementById("main__temp").innerHTML = data.main.temp + "°C";
   document.getElementById("main__hum").innerHTML = data.main.humidity + "%";
   document.getElementById("main__wind").innerHTML = data.wind.speed + "m/s";
+  document.getElementById("main__pre").innerHTML = data.main.pressure + "hPa";
 }
 pogoda(document.getElementById("main__searchbar").value);
 
