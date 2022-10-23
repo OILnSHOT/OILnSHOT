@@ -40,6 +40,12 @@ body {
   color: white;
   margin-bottom: 100px;
 }
+#main__navi {
+  position: absolute;
+  margin-top: 30px;
+  color: rgb(18, 86, 163);
+  text-decoration: none;
+}
 
 @media screen and (max-width: 1200px) {
   #main__clock {
@@ -50,4 +56,4 @@ body {
   #main__block {
     padding: 60px;
   }
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */
