@@ -12,11 +12,10 @@ async function pogoda(miasto) {
   document.getElementById("main__city").innerHTML = data.name;
   document.getElementById("main__temp").innerHTML = data.main.temp + "°C";
   document.getElementById("main__hum").innerHTML = data.main.humidity + "%";
-  document.getElementById("main__wind").innerHTML = data.wind.speed + "m/s";
-  document.getElementById("main__pre").innerHTML = data.main.pressure + "hPa";
+  document.getElementById("main__wind").innerHTML = data.wind.speed + " m/s";
+  document.getElementById("main__pre").innerHTML = data.main.pressure + " hPa";
 }
 pogoda(document.getElementById("main__searchbar").value);
-
 function currentTime() {
   let date = new Date();
   let hour = date.getHours();
@@ -35,7 +34,7 @@ function currentTime() {
   let time = hour + ":" + minute + ":" + second + " " + PMorAM;
 
   document.getElementById("main__clock").innerText = time;
-  var wynik = setTimeout(function () {
+  let wynik = setTimeout(function () {
     currentTime();
   }, 1000);
 }
