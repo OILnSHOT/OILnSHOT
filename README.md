@@ -1,3 +1,3 @@
 Załozenia:
-1.Sprawdzanie Godziny
+1.Pokazywanie Godziny
 2.Sprawdzanie Pogody
