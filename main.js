@@ -2,7 +2,7 @@ if (localStorage.getItem("miasto") != null) {
   miasto = localStorage.getItem("miasto");
   document.getElementById("main__searchbar").value = miasto;
 }
-pogoda(miasto);
+
 // pogoda(document.getElementById("main__searchbar").value);
 document.getElementById("main__searchbar").addEventListener("change", () => {
   localStorage.setItem(
